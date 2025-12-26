@@ -5,33 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="contenor">
         <nav>
             <div id="home"><a href="#home"><h1>Portfolio</h1></a></div>
-            <ul>
+           
+            <ul id="lis">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
+                <li><a href="./About.html">About Me</a></li>
+                <li><a href="#skills">skills</a></li>
                 <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul id="bar">
+            <li><i class="fa-solid fa-bars" id="bar"></i>
+                <div id="navpop">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="./About.html">About Me</a></li>
+                        <li><a href="#skills">skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </li>
             </ul>
         </nav>
         <section class="home">
-            <div id="home-text">
-            <h1>Welcome to My Portfolio</h1>
-            <h2>Ajay Sahu </h2>
-            <h3>Full Stack Developer</h3>
-            <p>I am a passionate <samp>Web Developer</samp> and <samp> MCA student </samp> with a strong interest in building modern, responsive, and user-friendly web applications. I specialize in full-stack development, with hands-on experience in HTML, CSS, JavaScript, React, Node.js, and databases.
+           <div id="wlc"> <h1>Welcome to My Portfolio</h1></div>
+           <div class="content">
 
-I enjoy transforming ideas into real-world digital solution</p>
-            </div>
-           <div class="profile">
+            <div class="profile">
             <div class="pro"></div><div id="image">
             <img src="./Asset/portfollo.png" alt="Home Image">
             </div>
-        </div>
+            
+            </div>
+            
+            <div id="home-text">
+            
+            <h2>Ajay Sahu </h2>
+            <br>
+            <h3>Full Stack Developer</h3>
+            <br>
+            <p>I am a passionate <samp>Full Stack Developer</samp> and <samp> MCA student </samp> with a strong interest in building modern, responsive, and user-friendly web applications. I specialize in full-stack development, with hands-on experience in <samp>HTML, CSS, JavaScript, React, Node.js,</samp> and databases.
+I enjoy transforming ideas into real-world digital solution</p>
+            </div>
+          
+            </div>
         </section>
+        <footer>
+           <div> <a href="#contact">
+                <ul id="add">
+                    <li>Add.:-  36D rishi palace 
+                        dwarkapuri, indore (M.P.), india
+                    </li>
+                    <br>
+                    <li>No.:-  6261475554</li>
+                    </ul>
+                    
+            </a>
+            </div>
+            <div><ul>
+                    
+                    
+                    <li>Email.:-    ajaysahu1442015@gmail.com</li>
+                    <br>
+                    <li>insta.:-    Aj_sahu</li>
+                </ul></div>
+            <div>
+            <form action="ajaysahu1442015@gmail.com" id="ff">
+                <input type="text" placeholder="please rank and commante profile">
+                <button type="submit">submit</button>
+            </form>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
